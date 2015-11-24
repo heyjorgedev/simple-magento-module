@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<modules>
-    <JorgeMurta_SimpleModule>
-        <active>true</active>
-        <codePool>local</codePool>
-    </JorgeMurta_SimpleModule>
-</modules>
+<config>
+    <modules>
+        <JorgeMurta_SimpleModule>
+            <active>true</active>
+            <codePool>local</codePool>
+        </JorgeMurta_SimpleModule>
+    </modules>
+</config>
