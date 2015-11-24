@@ -1,0 +1,5 @@
+# Deployment with Modman
+app/code/local/JorgeMurta/SimpleModule app/code/local/JorgeMurta/SimpleModule
+
+# Register the Module
+app/etc/modules/JorgeMurta_SimpleModule.xml app/etc/modules/JorgeMurta_SimpleModule.xml
