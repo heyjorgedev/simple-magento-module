@@ -8,12 +8,12 @@
                 <jorgemurta_configuration>
                     <title>Configuration</title>
                     <sort_order>10</sort_order>
-                    <action>adminhtml/simplemodule</action>
+                    <action>adminhtml/simplemodule/configuration</action>
                 </jorgemurta_configuration>
                 <jorgemurta_viewlogs>
                     <title>View Logs</title>
                     <sort_order>20</sort_order>
-                    <action>adminhtml/simplemodule</action>
+                    <action>adminhtml/simplemodule/index</action>
                 </jorgemurta_viewlogs>
             </children>
         </jorgemurta>

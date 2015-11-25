@@ -22,6 +22,16 @@
                     <JorgeMurta_SimpleModule after="Mage_Adminhtml">JorgeMurta_SimpleModule</JorgeMurta_SimpleModule>
                 </args>
             </adminhtml>
+
+            <jorgemurta_logging>
+                <use>admin</use>
+                <args>
+                    <module>JorgeMurta_SimpleModule</module>
+                    <frontName>admin</frontName>
+                </args>
+            </jorgemurta_logging>
         </routers>
+
+
     </admin>
 </config>
