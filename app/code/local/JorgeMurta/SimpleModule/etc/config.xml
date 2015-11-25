@@ -20,7 +20,7 @@
             <adminhtml>
                 <args>
                     <modules>
-                        <simplemodule after="Mage_Adminhtml">JorgeMurta_SimpleModule</simplemodule>
+                        <simplemodule after="Mage_Adminhtml">JorgeMurta_SimpleModule_Adminhtml</simplemodule>
                     </modules>
                 </args>
             </adminhtml>

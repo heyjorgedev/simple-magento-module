@@ -1,6 +1,6 @@
 <?php
 
-class JorgeMurta_SimpleModule_SimplemoduleController extends Mage_Adminhtml_Controller_Action
+class JorgeMurta_SimpleModule_Adminhtml_SimplemoduleController extends Mage_Adminhtml_Controller_Action
 {
     public function indexAction()
     {
