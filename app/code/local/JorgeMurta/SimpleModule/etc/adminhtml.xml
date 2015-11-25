@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config>
+    <menu>
+        <jorgemurta_simplemodule translate="title" module="jorgemurta_simplemodule">
+            <title>Admin Top Nav Example</title>
+            <sort_order>100</sort_order>
+            <children>
+                <sales translate="title" module="jorgemurta_simplemodule">
+                    <title>Link To Sales</title>
+                    <sort_order>10</sort_order> <!-- using a sort order which skips by 10 is useful -->
+                    <action>adminhtml/sales_order</action>
+                </sales>
+                <children translate="title" module="jorgemurta_simplemodule">
+                    <title>Item With Children</title>
+                    <sort_order>20</sort_order>
+                    <children>
+                        <nonexistent_thing translate="title" module="jorgemurta_simplemodule">
+                            <title>Link To Something Nonexistent</title>
+                            <sort_order>10</sort_order>
+                            <action>adminhtml/nonexistent_thing</action>
+                        </nonexistent_thing>
+                    </children>
+                </children>
+            </children>
+        </jorgemurta_simplemodule>
+    </menu>
+</config>

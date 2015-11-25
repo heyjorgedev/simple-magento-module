@@ -6,4 +6,12 @@
             <version>0.0.1</version>
         </JorgeMurta_SimpleModule>
     </modules>
+
+    <global>
+        <helpers>
+            <jorgemurta_simplemodule>
+                <class>JorgeMurta_SimpleModule_Helper</class>
+            </jorgemurta_simplemodule>
+        </helpers>
+    </global>
 </config>
