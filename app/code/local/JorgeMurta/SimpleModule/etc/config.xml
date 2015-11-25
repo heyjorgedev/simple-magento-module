@@ -14,4 +14,14 @@
             </jorgemurta_simplemodule>
         </helpers>
     </global>
+
+    <admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <JorgeMurta_SimpleModule after="Mage_Adminhtml">JorgeMurta_SimpleModule</JorgeMurta_SimpleModule>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
 </config>

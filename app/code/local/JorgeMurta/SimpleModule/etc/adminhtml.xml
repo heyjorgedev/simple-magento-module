@@ -1,28 +1,41 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
+<?xml version="1.0" ?>
 <config>
     <menu>
-        <jorgemurta_simplemodule translate="title" module="jorgemurta_simplemodule">
-            <title>Admin Top Nav Example</title>
-            <sort_order>100</sort_order>
+        <jorgemurta translate="title" module="jorgemurta_simplemodule">
+            <title>Logging</title>
+            <sort_order>90</sort_order>
             <children>
-                <sales translate="title" module="jorgemurta_simplemodule">
-                    <title>Link To Sales</title>
-                    <sort_order>10</sort_order> <!-- using a sort order which skips by 10 is useful -->
-                    <action>adminhtml/sales_order</action>
-                </sales>
-                <children translate="title" module="jorgemurta_simplemodule">
-                    <title>Item With Children</title>
+                <jorgemurta_configuration>
+                    <title>Configuration</title>
+                    <sort_order>10</sort_order>
+                    <action>adminhtml/simplemodule</action>
+                </jorgemurta_configuration>
+                <jorgemurta_viewlogs>
+                    <title>View Logs</title>
                     <sort_order>20</sort_order>
-                    <children>
-                        <nonexistent_thing translate="title" module="jorgemurta_simplemodule">
-                            <title>Link To Something Nonexistent</title>
-                            <sort_order>10</sort_order>
-                            <action>adminhtml/nonexistent_thing</action>
-                        </nonexistent_thing>
-                    </children>
-                </children>
+                    <action>adminhtml/simplemodule</action>
+                </jorgemurta_viewlogs>
             </children>
-        </jorgemurta_simplemodule>
+        </jorgemurta>
     </menu>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <jorgemurta translate="title" module="jorgemurta_simplemodule">
+                        <title>Logging</title>
+                        <sort_order>10</sort_order>
+                        <children>
+                            <jorgemurta_configuration>
+                                <title>Configuration</title>
+                            </jorgemurta_configuration>
+                            <jorgemurta_viewlogs>
+                                <title>View Logs</title>
+                            </jorgemurta_viewlogs>
+                        </children>
+                    </jorgemurta>
+                </children>
+            </admin>
+        </resources>
+    </acl>
 </config>
