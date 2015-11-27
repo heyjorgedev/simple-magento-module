@@ -30,9 +30,9 @@
     <adminhtml>
         <layout>
             <updates>
-                <logging>
+                <simplemodule>
                     <file>logging.xml</file>
-                </logging>
+                </simplemodule>
             </updates>
         </layout>
     </adminhtml>
