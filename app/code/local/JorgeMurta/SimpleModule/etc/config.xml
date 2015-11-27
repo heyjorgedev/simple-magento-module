@@ -24,16 +24,16 @@
                     </modules>
                 </args>
             </adminhtml>
-
-            <!-- <jorgemurta_logging>
-                <use>admin</use>
-                <args>
-                    <module>JorgeMurta_SimpleModule</module>
-                    <frontName>logging</frontName>
-                </args>
-            </jorgemurta_logging> -->
         </routers>
-
-
     </admin>
+
+    <adminhtml>
+        <layout>
+            <updates>
+                <logging>
+                    <file>logging.xml</file>
+                </logging>
+            </updates>
+        </layout>
+    </adminhtml>
 </config>
