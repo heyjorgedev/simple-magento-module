@@ -8,8 +8,8 @@ class JorgeMurta_SimpleModule_Adminhtml_SimplemoduleController extends Mage_Admi
         // var_dump(Mage::getSingleton('core/layout')->getUpdate()->getHandles());
         // die(__METHOD__);
         //
-        var_dump($this->getLayout()->getUpdate()->getHandles());
-        die();
+        // var_dump($this->getLayout()->getUpdate()->getHandles());
+        // die();
 
         $this->getLayout()->getBlock('head')->setTitle($this->__("View Logs"));
         $this->renderLayout();
