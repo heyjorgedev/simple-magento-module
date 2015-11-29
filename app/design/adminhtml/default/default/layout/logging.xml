@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout>
+    <adminhtml_simplemodule_index>
+        <reference name="content">
+            <block type="core/template" name="logging_index">
+                <action method="setTemplate">
+                    <template>logging/index.phtml</template>
+                </action>
+            </block>
+        </reference>
+    </adminhtml_simplemodule_index>
+</layout>
