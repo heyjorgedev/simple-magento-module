@@ -1,7 +1,7 @@
 # Deployment with Modman
 app/code/local/JorgeMurta/SimpleModule app/code/local/JorgeMurta/SimpleModule
-app/design/adminhtml/default/default/layout/logging.xml app/design/adminhtml/default/default/layout/logging.xml
-app/design/adminhtml/default/default/template/logging app/design/adminhtml/default/default/template/logging
+app/design/adminhtml/JorgeMurta/SimpleModule/layout/logging.xml app/design/adminhtml/JorgeMurta/SimpleModule/layout/logging.xml
+app/design/adminhtml/JorgeMurta/SimpleModule/template/logging app/design/adminhtml/JorgeMurta/SimpleModule/template/logging
 
 # Register the Module
 app/etc/modules/JorgeMurta_SimpleModule.xml app/etc/modules/JorgeMurta_SimpleModule.xml
