@@ -5,6 +5,12 @@ class JorgeMurta_SimpleModule_Adminhtml_SimplemoduleController extends Mage_Admi
     public function indexAction()
     {
         $this->loadLayout();
+        // var_dump(Mage::getSingleton('core/layout')->getUpdate()->getHandles());
+        // die(__METHOD__);
+        //
+        var_dump($this->getLayout()->getUpdate()->getHandles());
+        die();
+
         $this->getLayout()->getBlock('head')->setTitle($this->__("View Logs"));
         $this->renderLayout();
     }
